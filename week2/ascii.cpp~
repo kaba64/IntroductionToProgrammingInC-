@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  char input_char;
+  int sccii_value;
+  
+  cout<<"please enter a character"<<endl;
+  cin>>input_char;
+  sccii_value = (int) input_char;
+  cout<< "The ASCII value of"<<input_char<<" is "<<sccii_value<<endl;
+  
+  return 0;
+}
